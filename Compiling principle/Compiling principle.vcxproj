@@ -10,6 +10,12 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pl0.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pl0.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{2231A976-CE0E-4D84-900C-299772962BFD}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -75,12 +81,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\shxy\作业\编译原理\编译原理上机课资料\lab_pl0\c_base\pl0.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\shxy\作业\编译原理\编译原理上机课资料\lab_pl0\c_base\pl0.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
