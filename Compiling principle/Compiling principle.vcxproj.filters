@@ -13,15 +13,24 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\init">
+      <UniqueIdentifier>{99f5bc8b-4200-4860-8317-1a70b022e4ac}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pl0.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\shxy\作业\编译原理\编译原理上机课资料\lab_pl0\c_base_2\c_base\pl0.c">
+      <Filter>源文件\init</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pl0.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\shxy\作业\编译原理\编译原理上机课资料\lab_pl0\c_base_2\c_base\pl0.h">
+      <Filter>源文件\init</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

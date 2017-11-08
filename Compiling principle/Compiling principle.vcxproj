@@ -11,9 +11,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\shxy\作业\编译原理\编译原理上机课资料\lab_pl0\c_base_2\c_base\pl0.c" />
     <ClCompile Include="pl0.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\shxy\作业\编译原理\编译原理上机课资料\lab_pl0\c_base_2\c_base\pl0.h" />
     <ClInclude Include="pl0.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
